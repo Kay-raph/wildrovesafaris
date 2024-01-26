@@ -55,7 +55,7 @@
       }
     }
   }
-  @media only screen and (-webkit-min-device-pixel-ratio: 2){
+  @media only screen and (min-width: 375px) and (max-width: 767px){
     img {
         width: 80%;
         height: 80%;
