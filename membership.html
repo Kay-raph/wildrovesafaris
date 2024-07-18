@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Wild Rove Safaris</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="wild rove safaris" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="logos/wildrove-1.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Quicksand:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">roving...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+      <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-map-marker-alt me-2"></small>
+            <small>Westlands, Nairobi, KENYA</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center py-3">
+            <small class="far fa-clock me-2"></small>
+            <small>Mon - Fri : 09.00 AM - 6.00 PM</small>
+          </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-phone-alt me-2"></small>
+            <a href="tel:#" style="color: black;"><small>+254 XXX XXX XXX</small></a>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center">
+            <a class="btn btn-sm-square bg-white me-1" href="https://www.facebook.com/profile.php?id=61553824620098&mibextid=ZbWKwL"
+               target="_blank"><i class="fab fa-facebook-f" style="color: rgb(90, 90, 233);"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white me-0" href="https://instagram.com/wildrovesafaris?igshid=MzMyNGUyNmU2YQ=="
+               target="_blank"><i class="fab fa-instagram" style="color: #943b0f;"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white me-1" href="https://www.tiktok.com/@wildrove.safaris?_t=8hxafrsjmmE&_r=1"
+               target="_blank"><i class="fab fa-tiktok" style="color: rgb(29, 29, 30);"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+    <a href="index.html" class="navbar-brand p-0">
+      <img class="img-fluid me-3" src="logos/wildrove-1.png" width="100" alt="Icon" />
+      <h3 class="m-0" style="color: black;">Wild Rove <span style="font-style: italic; color: #ed7e47; font-weight: 800;">Safaris</span></h3>
+    </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <a href="index.html" class="nav-item nav-link active">Home</a>
+          <a href="#" class="nav-item nav-link"></a>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Safari Tours</a
+            >
+            <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+              <a href="excursion.html" class="dropdown-item">Excursions</a>
+              <a href="packages.html" class="dropdown-item">Packages</a>
+              <a href="trips.html" class="dropdown-item">One Day Trips</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a
+              href="about.html"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >About us</a
+            >
+            <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+              <a href="about.html" class="dropdown-item">About Us</a>
+              <a href="membership.html" class="dropdown-item">Membership</a>
+              <!--<a href="#" class="dropdown-item">Visiting Hours</a>-->
+              <a href="#" class="dropdown-item">Testimonial</a>
+              <a href="merchandise.html" class="dropdown-item">Merchandise</a>
+            </div>
+          </div>
+          <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+          <a href="#" class="nav-item nav-link">Blogs</a>
+          <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+        </div>
+        <!--<a href="" class="btn btn-primary"
+          >Buy Ticket<i class="fa fa-arrow-right ms-3"></i
+        ></a> -->
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid header-bg py-5 mb-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <h1 class="display-4 text-white mb-3 animated slideInDown">
+          Membership
+        </h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item">
+              <a class="text-white" href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item text-primary active" aria-current="page" style="color: #ed7e47;">
+              <b style="color: #ed7e47;">Membership</b>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+        <!-- Membership Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+       
+      <div class="container">
+        <div class="row g-5 wow fadeInUp" data-wow-delay="0.5s">
+          <p><span class="text-primary me-2"><b style="color: #ed7e47;">#</b><b style="font-style: italic; color: #ed7e47;">Membership</b></span></p>
+        
+            <div class="img-border">
+              <img class="img-fluid" src="img/member.jpg" alt="" style="margin-bottom: -50px;" />
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div
+          class="row g-5 mb-5 align-items-end wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="col-lg-6">
+            <h1 class="display-5 mb-0">
+              Becoming a
+              <span class="text-primary"> <b style="color: #ed7e47; font-style: italic;">Member</b></span>
+            </h1>
+          </div>
+         
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="membership-item position-relative">
+              <img class="img-fluid" src="img/access.jpg" alt="" />
+              <h1 class="display-1">01</h1>
+              <h4 class="text-white mb-3">Exclusive Access</h4>
+              <!-- <h3 class="text-primary mb-4">$99.00</h3> -->
+              <p><i class="fa fa-check text-primary me-3"></i>Unlock access to members-only tours,
+                 unique itineraries, 
+                 and special travel packages tailored just for you.
+                <br> <br> <br>
+                </p>
+              <p>
+                <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="membership-item position-relative">
+              <img class="img-fluid" src="img/booknow.png" alt="" />
+              <h1 class="display-1">02</h1>
+              <h4 class="text-white mb-3">Priority Booking</h4>
+              <!--<h3 class="text-primary mb-4">$149.00</h3>-->
+              <p><i class="fa fa-check text-primary me-3"></i>Be the first to secure your spot on our most popular tours. 
+                Enjoy priority booking and ensure 
+                you never miss out on your dream adventure.
+                <br> <br>
+              </p>
+              <p>
+              <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="membership-item position-relative">
+              <img class="img-fluid" src="img/personalized.png" alt="" />
+              <h1 class="display-1">03</h1>
+              <h4 class="text-white mb-3">Personalized Services</h4>
+              <!--<h3 class="text-primary mb-4">$199.00</h3>-->
+              <p><i class="fa fa-check text-primary me-3"></i>Receive personalized assistance from our dedicated concierge team. 
+                Whether it's customizing your itinerary or arranging special requests, 
+                we're here to cater to your preferences.</p>
+              <p>
+              <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="membership-item position-relative">
+              <img class="img-fluid" src="img/events.png" alt="" />
+              <h1 class="display-1">04</h1>
+              <h4 class="text-white mb-3">Special Events & Gathering</h4>
+              <!--<h3 class="text-primary mb-4">$99.00</h3>-->
+              <p><i class="fa fa-check text-primary me-3"></i>Join fellow members at exclusive events, gatherings, and receptions. 
+                Connect with like-minded travelers and share your experiences.
+              
+              </p>
+              <p>
+              <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="membership-item position-relative">
+              <img class="img-fluid" src="img/discount.png" alt="" />
+              <h1 class="display-1">05</h1>
+              <h4 class="text-white mb-3">Members-only Discounts</h4>
+              <!--<h3 class="text-primary mb-4">$149.00</h3>-->
+              <p><i class="fa fa-check text-primary me-3"></i>Enjoy exclusive discounts on tour packages, 
+                accommodations, and selected travel essentials. 
+                Your membership pays off with every journey..<br></p>
+              <p>
+               
+              <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Membership End -->
+
+    <!--Joining start-->
+
+    <div class="container-xxl py-5">
+      <div class="container">
+     
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-lg-6">
+              <a href="service.html"><p style="color: #ed7e47; font-weight: 700; font-style: italic;"><span class="me-2" style="color: #ed7e47;">#</span>Becoming a Member</p></a>
+              <h1 class="display-5 mb-0">
+                <span class="" style="color: #ed7e47;">How to</span> Join
+              </h1>
+              <p class="mb-4 wow fadeInUp">
+                Becoming a member with Wild Rove Safaris is easy 
+                and comes with a wealth of benefits.<br> Simply follow these steps:
+              </p>
+        
+            </div>
+          </div>
+          <div class="row gy-5 gx-4">
+           <!-- <div
+              class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
+            <div class="ad">
+              <img class="img-fluid mb-3" src="img/icon/tiers.png" alt="Icon" width="100px" />
+              
+              <h5 class="mb-3" style="font-style: italic; color: #ed7e47; font-weight: 700;">1. Explore Membership Tiers</h5>
+              <span
+                >Discover membership tiers available and choose the one that aligns with your travel aspirations.</span
+              >
+       
+            </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
+            <div class="cu">
+               <img class="img-fluid mb-3" src="img/icon/signup.png" alt="Icon" width="100px"/>
+              <h5 class="mb-3" style="font-style: italic; color: #ed7e47; font-weight: 700;">2. Sign Up Online</h5>
+              <span
+                >Complete our simple online registration form. Provide your details,
+                 preferences, and any specific requirements you may have.</span
+              >
+            </div>
+             
+            </div>
+            <div
+              class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+              data-wow-delay="0.5s"
+            >
+            <div class="lu">
+                <img class="img-fluid mb-3" src="img/icon/confirm.png" alt="Icon" width="100px"/>
+              <h5 class="mb-3" style="font-style: italic; color: #ed7e47; font-weight: 700;">3. Membership Confirmation</h5>
+              <span
+                >Once your membership is confirmed, you'll receive a personalized 
+                welcome kit and details on how to access your exclusive benefits.</span
+              >
+            </div>
+            
+            </div>
+            <div
+              class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+              data-wow-delay="0.7s"
+            >
+            <div class="fam">
+                <img class="img-fluid mb-3" src="img/icon/book.png" alt="Icon" width="100px"/>
+              <h5 class="mb-3" style="font-style: italic; color: #ed7e47; font-weight: 700;">4. Start Booking</h5>
+              <span
+                >Begin exploring our members-only offerings
+                 and start planning your next extraordinary adventure.</span
+              >
+            </div>
+            
+            </div> -->
+            
+          </div>
+        </div>
+      </div>
+
+<h5 class="mb-3" style="font-style: italic; font-weight: 600;">Membership Tiers</h5>
+<b style="color: #ed7e47;">1. Explorer Level:</b>
+<p class="mb-4 wow fadeInUp">
+Ideal for occasional travelers looking for exclusive perks.<br>
+Priority booking and access to members-only discounts.
+</p>
+<b style="color: #ed7e47;">2. Adventure Level:</b>
+<p>
+  Perfect for frequent travelers seeking personalized services.<br>
+  All benefits of Explorer Level, plus exclusive events and a dedicated concierge.
+</p>
+<b style="color: #ed7e47;">3. Global Explore Level:</b>
+<p>
+  Tailored for the ultimate travel enthusiast.<br>
+All benefits of Adventurer Level, plus additional perks such as complimentary upgrades and special recognition.
+</p>
+
+<div
+class="row g-5 mb-5 align-items-end wow fadeInUp"
+data-wow-delay="0.1s"
+>
+<br>
+<div class="col-lg-6">
+   <h1 class="display-5 mb-0">
+    Join
+    <span class="text-primary"> <b style="color: #ed7e47; font-style: italic;">Wild Rove Safaris</b> <b style="color: #ed7e47;">Today!</b></span>
+  </h1>
+  <p>
+    Elevate your travel experience with Wild Rove Safaris Membership. Whether you're a seasoned explorer or planning your first journey, our membership program is designed to make every adventure exceptional.
+  </p>
+</div>
+<div class="col-lg-6 text-lg-end">
+  <p style="font-style: italic; font-weight: 600;">Join Now and Let the Extraordinary Begin!
+
+  </p>
+  <a class="btn btn-primary py-3 px-5" href="" style="background-color: #ed7e47; border-style: none; font-weight: 700;">Join Now</a>
+</div>
+</div>
+
+      </div>
+    </div>
+
+     <!-- Contact Start -->
+     <div class="container-xxl py-5" style="background-color: #000;">
+      <div class="container">
+        <div class="row g-4 mb-5">
+          <h5 class="mb-3" style="font-style: italic; font-weight: 600; color: #ed7e47;">For more information or assistance, contact our Membership Services team at:</h5>
+          <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="h-100 bg-light d-flex align-items-center p-5">
+              
+              <div class="btn-lg-square bg-white flex-shrink-0">
+                <i class="fa fa-map-marker-alt" style="color: #ed7e47;"></i>
+              </div>
+              <div class="ms-4">
+                <p class="mb-2">
+                  <span class="text me-2" style="color: #ed7e47;">#</span>Address
+                </p>
+                <h5 class="mb-0">Westlands, Nairobi, Kenya</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="h-100 bg-light d-flex align-items-center p-5">
+              <div class="btn-lg-square bg-white flex-shrink-0">
+                <i class="fa fa-phone-alt" style="color: #ed7e47;"></i>
+              </div>
+              <a href="tel:"><div class="ms-4">
+                <p class="mb-2" style="color: #ed7e47;">
+                  <span class="text me-2" style="color: #ed7e47;">#</span>Call Now
+                </p>
+                <h5 class="mb-0">+012 345 6789</h5>
+              </div></a>
+            </div>
+          </div>
+          <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="h-100 bg-light d-flex align-items-center p-5">
+              <div class="btn-lg-square bg-white flex-shrink-0">
+                <i class="fa fa-envelope-open" style="color: #ed7e47;"></i>
+              </div>
+             <a href="mailto:"><div class="ms-4">
+                <p class="mb-2" style="color: #ed7e47;">
+                  <span class="text me-2" style="color: #ed7e47;">#</span>Mail Now
+                </p>
+                <h5 class="mb-0">info@example.com</h5>
+              </div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    <!--Joining Ends-->
+ <!-- Footer Start -->
+    <div
+      class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Address</h5>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Westlands, Nairobi, Kenya
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+012 345 67890
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>info@example.com
+            </p>
+            <div class="d-flex pt-2">
+             
+              <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=61553824620098&mibextid=ZbWKwL"
+                 target="_blank"><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                 target="_blank"><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href="https://instagram.com/wildrovesafaris?igshid=MzMyNGUyNmU2YQ=="
+                 target="_blank"><i class="fab fa-instagram"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href="https://www.tiktok.com/@wildrove.safaris?_t=8hxafrsjmmE&_r=1"
+               target="_blank"><i class="fab fa-tiktok"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Quick Links</h5>
+            <a class="btn btn-link" href="about.html">About Us</a>
+            <a class="btn btn-link" href="contact.html">Contact Us</a>
+            <a class="btn btn-link" href="service.html">Our Services</a>
+            <a class="btn btn-link" href="">Privacy Policy</a>
+            <a class="btn btn-link" href="">Support</a>
+          </div>
+            <!--<div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Popular Links</h5>
+            <a class="btn btn-link" href="about.html">About Us</a>
+            <a class="btn btn-link" href="contact.html">Contact Us</a>
+            <a class="btn btn-link" href="service.html">Our Services</a>
+            <a class="btn btn-link" href="">Privacy Policy</a>
+            <a class="btn btn-link" href="">Support</a>
+          </div>-->
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Newsletter</h5>
+            <p>You can always subscribe to our Newsletter to stay updated.</p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Your email"
+              />
+              <button
+                type="button"
+                class="btn py-2 position-absolute top-0 end-0 mt-2 me-2"
+               style="background-color: #ed7e47; color: #fff;">
+                SignUp
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">Wild Rove Safaris</a>, All
+              Right Reserved | 2024 
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+              Designed By
+              <a class="border-bottom" href="https://mugita.netlify.app"
+                >Kay Rpah</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-lg-square back-to-top"
+       style="background-color: #ed7e47; color: #fff;"><i class="bi bi-arrow-up"></i
+    ></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

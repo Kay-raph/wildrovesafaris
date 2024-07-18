@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Wild Rove Safaris</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="wild rove safaris" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="logos/wildrove-1.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Quicksand:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">roving...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+      <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-map-marker-alt me-2"></small>
+            <small>Westlands, Nairobi, KENYA</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center py-3">
+            <small class="far fa-clock me-2"></small>
+            <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+          </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-phone-alt me-2"></small>
+            <a href="tel:#" style="color: black;"><small>+254 XXX XXX XXX</small></a>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center">
+           
+            <a class="btn btn-sm-square bg-white me-1" href="https://www.facebook.com/profile.php?id=61553824620098&mibextid=ZbWKwL"
+               target="_blank"><i class="fab fa-facebook-f" style="color: rgb(90, 90, 233);"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white me-0" href="https://instagram.com/wildrovesafaris?igshid=MzMyNGUyNmU2YQ=="
+               target="_blank"><i class="fab fa-instagram" style="color: #943b0f;"></i
+            ></a>
+             <a class="btn btn-sm-square bg-white me-1" href="https://www.tiktok.com/@wildrove.safaris?_t=8hxafrsjmmE&_r=1"
+               target="_blank"><i class="fab fa-tiktok"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <a href="index.html" class="navbar-brand p-0">
+        <img class="img-fluid me-3" src="logos/wildrove-1.png" width="100" alt="Icon" />
+        <h3 class="m-0" style="color: black;">Wild Rove <span style="font-style: italic; color: #ed7e47;">Safaris</span></h3>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <a href="index.html" class="nav-item nav-link active">Home</a>
+          <a href="#" class="nav-item nav-link"></a>
+         
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Safari Tours</a
+            >
+            <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+              <a href="excursion.html" class="dropdown-item">Excursions</a>
+              <a href="packages.html" class="dropdown-item">Packages</a>
+              <a href="trips.html" class="dropdown-item">One Day Trips</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a
+              href="about.html"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >About us</a
+            >
+            <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+              <a href="about.html" class="dropdown-item">About Us</a>
+              <!--<a href="membership.html" class="dropdown-item">Membership</a>-->
+              <!--<a href="#" class="dropdown-item">Visiting Hours</a>-->
+              <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+              <a href="#" class="dropdown-item">Merchandise</a>
+            </div>
+          </div>
+          <a href="" class="nav-item nav-link">Gallery</a>
+          <a href="#" class="nav-item nav-link">Blogs</a>
+          <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+        </div>
+        <!--<a href="" class="btn btn-primary"
+          >Buy Ticket<i class="fa fa-arrow-right ms-3"></i
+        ></a> -->
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid header-bg py-5 mb-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <h1 class="display-4 text-white mb-3 animated slideInDown">
+          Our Heritage
+        </h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item">
+              <a class="text-white" href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page" style="color: #ed7e47;">
+              Gallery
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Animal Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div
+          class="row g-5 mb-5 align-items-end wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="col-lg-6">
+            <p><span class="me-2" style="color: #ed7e47;">#</span>Our Animals</p>
+            <h1 class="display-5 mb-0">
+              <b style="color: #ed7e47;">Wild Rove</b> Awsome
+              Gallery
+            </h1>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <a class="btn btn-primary py-3 px-5" style="background-color: #ed7e47; border-color: transparent;" href=""
+              >Explore More Animals</a
+            >
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/animal-md-1.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/animal-md-1.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Antelope</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/animal-lg-1.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/animal-lg-1.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Hyena</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/animal-lg-2.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/animal-lg-2.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Leopard</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/animal-md-2.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/animal-md-2.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Zebra</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/animal-md-3.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/animal-md-3.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Elephant</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/animal-lg-3.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/animal-lg-3.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Cheetah</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/warthog.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/warthog.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Warthog</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/baboon.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/baboon.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Baboon</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/buffalo.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/buffalo.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Buffalo</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/hippo.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/hippo.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Hippopotamus</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/swans.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/swans.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Birds</p>
+                      <h5 class="text-white mb-0">Pelicans</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/vulture.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/vulture.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Bird</p>
+                      <h5 class="text-white mb-0">Vulture</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/rhino.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/rhino.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Rhino</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/antelope.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/antelope.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Grant's Gazelle</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/wildbeast.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/wildbeast.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Wildbeest</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/ducks.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/ducks.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Birds</p>
+                      <h5 class="text-white mb-0">Ducks</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/flamingoes.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/flamingoes.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Birds</p>
+                      <h5 class="text-white mb-0">Flamingoes</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/bluebird.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/bluebird.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Bird</p>
+                      <h5 class="text-white mb-0">Super Starling</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/croco.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/croco.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Crocodile</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/giraffe.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/giraffe.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Giraffe</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/ante.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/ante.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Hartebeest</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/birdy.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/birdy.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Birds</p>
+                      <h5 class="text-white mb-0">Speckled Mousebird</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/monkey.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/monkey.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Vervet Monkey</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/ostrich.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/ostrich.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Bird</p>
+                      <h5 class="text-white mb-0">Ostrich</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    <!-- Animal End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Address</h5>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Westlands, Nairobi, Kenya
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+012 345 67890
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>info@wildrovesafaris.co.ke
+            </p>
+            <div class="d-flex pt-2">
+              
+              <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=61553824620098&mibextid=ZbWKwL"
+                 target="_blank"><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                 target="_blank"><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href="https://instagram.com/wildrovesafaris?igshid=MzMyNGUyNmU2YQ=="
+                 target="_blank"><i class="fab fa-instagram"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href="https://www.tiktok.com/@wildrove.safaris?_t=8hxafrsjmmE&_r=1"
+                 target="_blank"><i class="fab fa-tiktok"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Quick Links</h5>
+            <a class="btn btn-link" href="about.html">About Us</a>
+            <a class="btn btn-link" href="contact.html">Contact Us</a>
+            <a class="btn btn-link" href="service.html">Our Services</a>
+            <a class="btn btn-link" href="">Privacy Policy</a>
+            <a class="btn btn-link" href="">Support</a>
+          </div>
+           <!--<div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Popular Links</h5>
+            <a class="btn btn-link" href="about.html">About Us</a>
+            <a class="btn btn-link" href="contact.html">Contact Us</a>
+            <a class="btn btn-link" href="service.html">Our Services</a>
+            <a class="btn btn-link" href="">Privacy Policy</a>
+            <a class="btn btn-link" href="">Support</a>
+          </div>-->
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Newsletter</h5>
+            <p>You can always subscribe to our Newsletter to stay updated.</p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Your email"
+              />
+              <button
+                type="button"
+                class="btn py-2 position-absolute top-0 end-0 mt-2 me-2"
+               style="background-color: #ed7e47; color: #fff;">
+                SignUp
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">Wild Rove Safaris</a>, All
+              Right Reserved | 2024 
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+              Designed By
+              <a class="border-bottom" href="https://mugita.netlify.app"
+                >Kay Rpah</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-lg-square back-to-top"
+    style="background-color: #ed7e47; color: #fff;"><i class="bi bi-arrow-up"></i
+ ></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
